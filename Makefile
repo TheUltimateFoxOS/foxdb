@@ -12,8 +12,8 @@ OBJS = $(patsubst %.c, $(OBJDIR)/%_$(OUTPUT).o, $(CSRC))
 CFLAGS = -Iinclude -Ilibfoxdb/include -g
 LDFLAGS = 
 
-CFLAGS += $(USER_CFLAGS)
-LDFLAGS += $(USER_LDFLAGS)
+# CFLAGS += $(USER_CFLAGS)
+# LDFLAGS += $(USER_LDFLAGS)
 
 CC = gcc
 LD = gcc
