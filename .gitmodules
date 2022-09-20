@@ -1,0 +1,3 @@
+[submodule "libfoxdb"]
+	path = libfoxdb
+	url = https://github.com/TheUltimateFoxOS/libfoxdb
